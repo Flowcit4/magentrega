@@ -26,7 +26,7 @@
         padding: 1rem;
 
         width: 100%;
-        position: ;
+
         }
 
 
@@ -69,8 +69,8 @@
 /* HOME */
 
     .main-introduccion {
-        height: 100vh;
-        color: #3e3e3d;;
+        height: calc(100vh - 64px);
+        color: #3e3e3d;
         display: flex;
         align-items: center;
         padding: 8rem;
@@ -108,14 +108,14 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-right: 8rem;
+        padding-right: 8rem;
         
         gap: 1rem;
         column-gap: 25px;
     }
 
     .footer-ubicacion {
-        margin-inline: 8rem;
+        padding-inline: 8rem;
         align-items: center;
         justify-content: center;
         justify-items: center;
@@ -139,9 +139,10 @@
     .main-aboutme {
     justify-content: space-between;
     align-items: center;
-    padding: 20rem;
+    padding: 15rem;
     text-align: center;
     color: #3e3e3d;
+    
     }
 
 
@@ -149,7 +150,7 @@
     .mainservicios {
         display: flex;
         align-items: center;
-        margin: 10rem;
+        padding: 13rem;
         color: #3e3e3d;
     }
 

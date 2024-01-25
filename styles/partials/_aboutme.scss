@@ -1,0 +1,13 @@
+.main-aboutme {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15rem;
+    color: $mainColor;
+    
+    .nombre-aboutme{
+        text-align: center;
+    }
+    .texto-aboutme{
+        text-align: justify;
+    }
+}

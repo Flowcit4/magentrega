@@ -24,20 +24,14 @@
         display: flex;
         justify-content: space-between;
         padding: 1rem;
-
         width: 100%;
-
         }
-
-
     .logomenu {
-        /* background-color: blue; */
-        width: 5rem;
-        margin-left:8rem ;
+        width: 4rem;
+        margin-left: 4rem ;
     }
 
-    .ul {
-        /* background-color: brown; */
+    .navbar-nav {
         list-style-type: none;
         display: flex;
         flex-wrap: nowrap;
@@ -53,15 +47,13 @@
         flex: 1px 2px 5px 6px ;
     }
 
-    .menu_item a {
-        /* background-color: aquamarine; */
+    .link {
         text-decoration: none;
-        /* color: red; */
         color: #3e3e3d;
     }
 
-    .menu_item.active a,
-    .menu_item a:hover {
+    .menu_item.active.link,
+    .link:hover {
         color: #ff6600;
     }
 
@@ -73,7 +65,7 @@
         color: #3e3e3d;
         display: flex;
         align-items: center;
-        padding: 8rem;
+        padding: 4rem;
 
 
         /* flex-wrap: nowrap;
@@ -82,18 +74,10 @@
         flex-basis: auto; */
     }
 
-    .div-introduuccion{
-        background-color: coral;
+    .div-introduccion{
+        background-color: #ff6600;
     }
 
-    .h2-introduccion {
-        /* background-color: darkolivegreen; */
-    }
-
-    .p-introduccion {
-        /* background-color: darkmagenta; */
-    }
-    
 
 /* HOME - FOOTER INDEX */
 
@@ -123,10 +107,8 @@
         width: 100%;
     }
 
-    .footer-nav-contacto a {
-        /* background-color: aquamarine; */
+    .link-footer {
         text-decoration: none;
-        /* color: red; */
         color: #ff6600;;
     }
 
@@ -147,12 +129,12 @@
 
 
 /* SERVICIOS */
-    .mainservicios {
-        display: flex;
-        align-items: center;
-        padding: 13rem;
-        color: #3e3e3d;
-    }
+.mainservicios {
+    display: flex;
+    align-items: center;
+    padding: 13rem;
+    color: #3e3e3d;
+}
 
 /* PORTFOLIO */
 
@@ -230,10 +212,10 @@
 
     /* CONTACTO */
 
-    .main-conacto {
+    .main-contacto {
         color: #3e3e3d
 ;
-        background-color: #3e3e3d;
+        background-color: #ffffff;
     }
 
 

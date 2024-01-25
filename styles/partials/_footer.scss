@@ -1,0 +1,25 @@
+.footer-nav-contacto {
+    margin-inline: 8rem;
+    color: $mainColor;
+    
+    .link-footer {
+        text-decoration: none;
+        color: $secondaryColor;
+    }
+
+    .footer-ul-contacto {
+        list-style-type: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 8rem;
+        gap: 1rem;
+        column-gap: 25px;
+    }
+}
+
+.p-footer{
+    text-align: center;
+}
+

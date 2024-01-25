@@ -1,0 +1,37 @@
+.header1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    }
+.logomenu {
+    width: 4rem;
+    margin-left: 4rem ;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 8rem;
+    
+    gap: 3rem;
+    column-gap: 25px;
+}
+
+.menu_item {
+    flex: 1px 2px 5px 6px ;
+}
+
+.link {
+    text-decoration: none;
+    color: $mainColor;
+}
+
+.menu_item.active.link,
+.link:hover {
+    color: $secondaryColor;
+}

@@ -1,0 +1,16 @@
+.main-introduccion {
+    height: calc(100vh - 64px);
+    color: $mainColor;
+    display: flex;
+    align-items: center;
+    padding: 6rem;
+
+    .h1-introduccion{ 
+        margin-bottom: 2rem;
+    }
+
+    .p-introduccion{
+        font-size: medium;
+
+    }
+}

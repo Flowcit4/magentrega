@@ -1,0 +1,36 @@
+.main-contacto {
+    display: flex;
+    flex-direction: column;
+    color: $mainColor;
+    background-color: none;
+    margin: 5rem;
+
+    div {
+        margin-bottom: 1rem;
+    }
+
+    section {
+        margin: 5rem;
+    }
+
+    .mensaje{
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+.form{
+    gap: 1rem;
+    margin: 1.5rem;
+    justify-content:unset;
+    display: flex;
+}
+
+.checkbox{
+    margin: 1.5rem;
+}
+
+.textarea-div{
+    margin: 1.5rem;
+}

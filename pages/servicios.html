@@ -3,15 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/estilo.css">
     <link rel="shortcut icon" href="../img/Logo/Logo Web.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>mag.</title>
+    <meta name="description" content="Planificacion y desarollo de proyecto">
+    <meta name="keywords" content="arquitectura, diseñar,diseño,departamentos,remodelaciones, reformas">
 </head>
 
 
 <body>
+    <header>
+        <div class="header1">
+            <img src="../img/Logo/logomag-negro_png.png" alt="logo mag" class="logomenu">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid ">
 
-    <header class="header1">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                    <a class="menu_item link " aria-current="page" href="../index.html">Home</a>
+                    <a class="menu_item link" href="./aboutme.html">About Me</a>
+                    <a class="menu_item link" href="./portfolio.html">Portfolio</a>
+                    <a class="menu_item link active"  href="./pages/servicios.html">Servicios</a>
+                    <a class="menu_item link" href="./contacto.html">Constacto</a>
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </div>
+</header>
+<!--     <header class="header1">
         <img class="logomenu" src="../img/Logo/LogoMAG_Negro_png.png" alt="" >
         <nav class="nav">
             <ul class="ul">
@@ -32,18 +57,17 @@
                 </li>
             </ul>
         </nav>
-    </header>
-    
-    <br>
+    </header> -->
+
     
     <main class="mainservicios">
-        <div class="main-div-servicios">
-            <h1>asesoramiento online</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sunt quaerat ut iure enim dolores ipsa expedita necessitatibus maiores dignissimos voluptates veniam praesentium, voluptate excepturi officia laudantium! Magni distinctio deleniti quod corrupti non laboriosam, explicabo veritatis obcaecati, eveniet error a eum quam nam, maxime nisi quis nemo expedita. Autem, dolor.</p>
+        <div class="servicios-left">
+            <h1>Diseño y Panificacion</h1>
+            <p>Como parte de mi oferta de servicios, me especializo en diseñar y crear planos, modelos 3D y renders a medida para diversos estudios y clientes. Mi enfoque técnico y creativo se combina para dar vida a visiones arquitectónicas, proporcionando herramientas visuales poderosas que facilitan la toma de decisiones y la comunicación efectiva. Ya sea para presentaciones impactantes o para materializar conceptos, estoy comprometida a ofrecer soluciones visuales que destaquen la excelencia en cada proyecto.</p>
         </div>
-        <div>
-            <h1>desarollo de proyecto</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit beatae cum nulla perferendis laboriosam ipsam ut, minus fuga tempora consectetur perspiciatis natus eaque harum blanditiis impedit quis officia aspernatur! Culpa saepe distinctio, eligendi beatae dolor nemo commodi porro minus sapiente pariatur nisi, maxime nihil debitis quod nostrum minima deserunt adipisci!
+        <div class="servicios-right">
+            <h1>Desarollo de Proyecto</h1>
+            <p>En mi servicio de interiorismo, transformo por completo locales y departamentos, fusionando diseño innovador con funcionalidad. Cada proyecto es una oportunidad para crear ambientes que cautiven, reflejando la personalidad única de mis clientes. Desde la selección de materiales hasta la disposición del mobiliario, mi enfoque meticuloso garantiza resultados estéticos y prácticos que realzan la calidad de vida.
             </p>
         </div>
     </main>
@@ -53,21 +77,23 @@
             <nav class="footer-nav-contacto">
                 <ul class="footer-ul-contacto">
                     <li class="instagram"> 
-                    <a href="https://www.instagram.com/arquitectura.mag/">instagram | </a>
+                    <a href="https://www.instagram.com/arquitectura.mag/" class="link-footer">instagram | </a>
                     </li>
                     <li class="whatsapp"> 
-                    <a href="https://www.instagram.com/arquitectura.mag/">whatsapp | </a>
+                    <a href="https://www.instagram.com/arquitectura.mag/" class="link-footer">whatsapp | </a>
                         </li>
                     <li class="contact"> 
-                    <a href="./pages/contacto.html">contact | </a>
+                    <a href="./pages/contacto.html" class="link-footer">contact | </a>
                 </ul>
             </nav>
         </div>
 
-        <div class="footer-ubicacion">
+        <div class="p-footer">
             | Based in Buenos Aires, Argentina |  2016 - 2024 © mag all rights reserved | Terms & Conditions | Cookies Policy  
         </div>
     </footer>
     
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

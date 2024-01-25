@@ -4,15 +4,40 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="../styles/styles.css">
+<link rel="stylesheet" href="../styles/estilo.css">
 <link rel="shortcut icon" href="../img/Logo/Logo Web.png" type="image/x-icon">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <title>mag.</title>
+<meta name="description" content="Contactanos.">
+    <meta name="keywords" content="arquitectura, diseñar,diseño,departamentos,remodelaciones, reformas">
 </head>
 
 
 <body>
+    <header>
+        <div class="header1">
+            <img src="../img/Logo/logomag-negro_png.png" alt="logo mag" class="logomenu">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid ">
 
-    <header class="header1">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="menu_item link " aria-current="page" href="../index.html">Home</a>
+                    <a class="menu_item link" href="./aboutme.html">About Me</a>
+                    <a class="menu_item link" href="./portfolio.html">Portfolio</a>
+                    <a class="menu_item link "  href="./servicios.html">Servicios</a>
+                    <a class="menu_item link active" href="./contacto.html">Contacto</a>
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </div>
+</header>
+<!--     <header class="header1">
         <img class="logomenu" src="../img/Logo/LogoMAG_Negro_png.png" alt="" >
         <nav class="nav">
             <ul class="ul">
@@ -33,11 +58,11 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </header> -->
 
 
-
-    <main class="main-contacto">
+<main>
+    <div class="main-contacto">
         <div class="main-div-contacto">
             <label for="nombre">Nombre</label>
             <input type="text"> 
@@ -50,19 +75,15 @@
             <label for="telefono">Telefono</label>
             <input type="text">
         </div>
-        <div>
-            <label for="mensaje">Mensaje</label>
+        <div class="div-mensaje">
+            <label for="mensaje" class="mensaje">Mensaje</label>
+            <br>
             <textarea name="" id="" cols="30" rows="10" placeholder="ingrese su texto aqui"></textarea>
         </div>
-
-        <h4>Te gustaria que te enviemos contenido? </h4>
-            <input type="checkbox" id="si"> <label for="si"></label>
         </div>
-        <input type="checkbox" id="no">
 
-            <span></span>
-    </main>
-
+    
+</main>
 
 
     <footer>
@@ -70,22 +91,23 @@
             <nav class="footer-nav-contacto">
                 <ul class="footer-ul-contacto">
                     <li class="instagram"> 
-                    <a href="https://www.instagram.com/arquitectura.mag/">instagram | </a>
+                    <a href="https://www.instagram.com/arquitectura.mag/" class="link-footer">instagram | </a>
                     </li>
                     <li class="whatsapp"> 
-                    <a href="https://www.instagram.com/arquitectura.mag/">whatsapp | </a>
+                    <a href="https://www.instagram.com/arquitectura.mag/" class="link-footer">whatsapp | </a>
                         </li>
                     <li class="contact"> 
-                    <a href="./pages/contacto.html">contact | </a>
+                    <a href="./pages/contacto.html" class="link-footer">contact | </a>
                 </ul>
             </nav>
         </div>
 
-        <div class="footer-ubicacion">
+        <div class="p-footer">
             | Based in Buenos Aires, Argentina |  2016 - 2024 © mag all rights reserved | Terms & Conditions | Cookies Policy  
         </div>
     </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -4,14 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/estilo.css">
     <link rel="shortcut icon" href="../img/Logo/Logo Web.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>mag.</title>
+    <meta name="description" content="Sobre mi y mis proyectos.">
+    <meta name="keywords" content="arquitectura, diseñar,diseño,departamentos,remodelaciones, reformas">
 </head>
 
 <body>
+    <header>
+        <div class="header1">
+            <img src="../img/Logo/logomag-negro_png.png" alt="logo mag" class="logomenu">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid ">
 
-    <header class="header1">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="menu_item link " aria-current="page" href="../index.html">Home</a>
+                    <a class="menu_item link active" href="./aboutme.html">About Me</a>
+                    <a class="menu_item link " href="./portfolio.html">Portfolio</a>
+                    <a class="menu_item link "  href="./servicios.html">Servicios</a>
+                    <a class="menu_item link" href="./contacto.html">Contacto</a>
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </div>
+</header>
+    <!-- <header class="header1">
         <img class="logomenu" src="../img/Logo/LogoMAG_Negro_png.png" alt="" >
         <nav class="nav">
             <ul class="ul">
@@ -32,13 +57,15 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </header> -->
 
 
     <main class="main-aboutme">
         <div class="main-div-aboutme">
-            <h1 class="nombre-aboutme">Florencia</h1>
-            <p class="texto-aboutme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sunt quaerat ut iure enim dolores ipsa expedita necessitatibus maiores dignissimos voluptates veniam praesentium, voluptate excepturi officia laudantium! Magni distinctio deleniti quod corrupti non laboriosam, explicabo veritatis obcaecati, eveniet error a eum quam nam, maxime nisi quis nemo expedita. Autem, dolor.</p>
+            <h1 class="nombre-aboutme">Sobre Mi</h1>
+            <p class="texto-aboutme">¡Hola! Soy Florencia Morelli, una apasionada arquitecta de 26 años con 6 años de experiencia en el fascinante mundo de proyectos de interiorismo y reformas. Mi enfoque se centra en la excelencia y la atención meticulosa a cada detalle, garantizando que cada proyecto refleje la visión única de mis clientes. A lo largo de mi carrera, he tenido el privilegio de trabajar en diversos estudios en Argentina, donde he perfeccionado mi habilidad para combinar la estética con la funcionalidad.
+                <br>
+            Mi enfoque colaborativo implica no solo diseñar espacios sorprendentes, sino también escuchar y entender las ideas y necesidades de mis clientes. Creo que cada proyecto es una oportunidad para transformar sueños en ambientes tangibles y funcionales. Mi objetivo es proporcionar soluciones creativas y personalizadas que superen las expectativas y enriquezcan la experiencia de vida de quienes habitan los espacios que diseño.</p>
         </div>
     </main>
 
@@ -48,21 +75,22 @@
             <nav class="footer-nav-contacto">
                 <ul class="footer-ul-contacto">
                     <li class="instagram"> 
-                    <a href="https://www.instagram.com/arquitectura.mag/">instagram | </a>
+                    <a href="https://www.instagram.com/arquitectura.mag/" class="link-footer">instagram | </a>
                     </li>
                     <li class="whatsapp"> 
-                    <a href="https://www.instagram.com/arquitectura.mag/">whatsapp | </a>
+                    <a href="https://www.instagram.com/arquitectura.mag/" class="link-footer">whatsapp | </a>
                         </li>
                     <li class="contact"> 
-                    <a href="./pages/contacto.html">contact | </a>
+                    <a href="./pages/contacto.html" class="link-footer">contact | </a>
                 </ul>
             </nav>
         </div>
-
-        <div class="footer-ubicacion">
-            | Based in Buenos Aires, Argentina |  2016 - 2024 © mag all rights reserved | Terms & Conditions | Cookies Policy  
+        <div class="footer-ubicacion"> 
+            <p class="p-footer">| Based in Buenos Aires, Argentina |  2016 - 2024 © mag all rights reserved | Terms & Conditions | Cookies Policy</p>
         </div>
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
